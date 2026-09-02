@@ -1,99 +1,979 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ENEM — Seu próximo passo começa aqui</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vem pro ENEM! | Guia do Estudante</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header>
-  <nav class="nav">
-    <a class="logo" href="#inicio">ENEM<span>2026</span></a>
-    <div class="links">
-      <a href="#o-que-e">O que é</a><a href="#finalidade">Finalidade</a>
-      <a href="#datas">Datas</a><a href="#oportunidades">Oportunidades</a><a href="#dicas">Dicas</a>
-    </div>
-  </nav>
+    <nav class="navbar">
+        <div class="logo">🇧🇷 VEM PRO <span>ENEM!</span></div>
+
+        <button class="menu-btn" onclick="abrirMenu()">☰</button>
+
+        <ul id="menu">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#enem">O ENEM</a></li>
+            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#redacao">Redação</a></li>
+            <li><a href="#cronograma">Estudos</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+        </ul>
+    </nav>
 </header>
 
+
 <main>
+
 <section id="inicio" class="hero">
-  <div>
-    <p class="tag">GUIA DO ESTUDANTE</p>
-    <h1>ENEM: uma prova que pode abrir portas para o seu futuro.</h1>
-    <p class="subtitle">Entenda o exame, confira as principais datas de 2026 e descubra como se preparar melhor.</p>
-    <a class="button" href="#o-que-e">Começar a explorar ↓</a>
-  </div>
-  <div class="hero-card">
-    <div class="number">01</div><p>Informação</p>
-    <div class="number">02</div><p>Preparação</p>
-    <div class="number">03</div><p>Oportunidades</p>
-  </div>
+
+    <div class="hero-text">
+
+        <span class="tag">🎓 GUIA DO ESTUDANTE</span>
+
+        <h1>VEM PRO<br><strong>ENEM!</strong></h1>
+
+        <h2>Seu futuro começa com uma escolha hoje.</h2>
+
+        <p>
+            Encontre informações, dicas de estudos, estratégias
+            para a redação e tudo o que você precisa para chegar
+            mais preparado no ENEM.
+        </p>
+
+        <div class="buttons">
+            <a href="#dicas" class="btn principal">🚀 COMEÇAR AGORA</a>
+            <a href="#quiz" class="btn secundario">🧠 FAZER QUIZ</a>
+        </div>
+
+    </div>
+
+    <div class="hero-card">
+        <div class="bola">⚽</div>
+        <h3>FOCO</h3>
+        <h3>FORÇA</h3>
+        <h3>DETERMINAÇÃO</h3>
+        <p>Te levam mais longe!</p>
+    </div>
+
 </section>
 
-<section id="o-que-e">
-  <p class="tag">01 — O QUE É</p>
-  <h2>Entendendo o ENEM</h2>
-  <div class="card">
-    <p>O Exame Nacional do Ensino Médio (ENEM) é uma avaliação realizada pelo Inep que verifica conhecimentos e habilidades desenvolvidos durante a educação básica. A prova também é uma das principais formas de acesso ao ensino superior no Brasil.</p>
-  </div>
+
+<section id="enem" class="section">
+
+    <div class="titulo">
+        <span>01</span>
+        <h2>O que é o ENEM?</h2>
+    </div>
+
+    <div class="info-grid">
+
+        <div class="info-card">
+            <div class="icon">📚</div>
+            <h3>Exame Nacional</h3>
+            <p>
+                O ENEM é uma das principais avaliações educacionais
+                do Brasil e pode ser utilizado em processos de
+                acesso ao ensino superior.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <div class="icon">🎓</div>
+            <h3>Faculdade</h3>
+            <p>
+                A nota pode ser utilizada em diferentes programas
+                e processos seletivos para ingresso em instituições
+                de ensino superior.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <div class="icon">🌎</div>
+            <h3>Conhecimento</h3>
+            <p>
+                A prova reúne conhecimentos de diferentes áreas
+                estudadas durante o ensino médio.
+            </p>
+        </div>
+
+    </div>
+
 </section>
 
-<section id="finalidade" class="dark">
-  <p class="tag">02 — FINALIDADE</p>
-  <h2>Por que o ENEM é importante?</h2>
-  <div class="grid">
-    <article><b>🎓 Avaliar conhecimentos</b><p>Mede competências e conhecimentos de diferentes áreas do ensino médio.</p></article>
-    <article><b>🏫 Acesso ao ensino superior</b><p>A nota pode ser usada em processos seletivos de instituições que adotam o ENEM.</p></article>
-    <article><b>🌱 Novas possibilidades</b><p>O resultado pode ajudar o estudante a buscar diferentes caminhos acadêmicos e profissionais.</p></article>
-  </div>
+
+<section class="section azul">
+
+    <div class="titulo branco">
+        <span>02</span>
+        <h2>Como funciona?</h2>
+    </div>
+
+    <div class="timeline">
+
+        <div>
+            <strong>01</strong>
+            <h3>Inscrição</h3>
+            <p>O estudante realiza sua inscrição dentro do período determinado.</p>
+        </div>
+
+        <div>
+            <strong>02</strong>
+            <h3>Preparação</h3>
+            <p>É importante organizar uma rotina de estudos e revisar os conteúdos.</p>
+        </div>
+
+        <div>
+            <strong>03</strong>
+            <h3>Prova</h3>
+            <p>O exame é dividido em dois dias e reúne diferentes áreas do conhecimento.</p>
+        </div>
+
+        <div>
+            <strong>04</strong>
+            <h3>Resultado</h3>
+            <p>Depois da divulgação dos resultados, o estudante pode verificar suas possibilidades.</p>
+        </div>
+
+    </div>
+
 </section>
 
-<section id="datas">
-  <p class="tag">03 — DATAS IMPORTANTES</p>
-  <h2>ENEM 2026</h2>
-  <div class="timeline">
-    <div><strong>13 a 30/04</strong><span>Solicitação de isenção da taxa</span></div>
-    <div><strong>25/05 a 12/06</strong><span>Período de inscrição</span></div>
-    <div><strong>22/06</strong><span>Prazo para pagamento da taxa de R$ 85,00</span></div>
-    <div><strong>08/11</strong><span>1º dia de provas: Linguagens, Ciências Humanas e Redação</span></div>
-    <div><strong>15/11</strong><span>2º dia de provas: Ciências da Natureza e Matemática</span></div>
-  </div>
-  <p class="note">Datas referentes ao cronograma oficial do ENEM 2026. Confira sempre as atualizações no Inep.</p>
+
+<section id="dicas" class="section">
+
+    <div class="titulo">
+        <span>03</span>
+        <h2>Dicas para mandar bem</h2>
+    </div>
+
+    <div class="tips">
+
+        <article>
+            <span>📖</span>
+            <h3>Estude um pouco todos os dias</h3>
+            <p>
+                Criar constância é mais importante do que tentar
+                estudar tudo de uma vez.
+            </p>
+        </article>
+
+        <article>
+            <span>⏱️</span>
+            <h3>Faça simulados</h3>
+            <p>
+                Resolva questões e simulados para conhecer melhor
+                o estilo da prova.
+            </p>
+        </article>
+
+        <article>
+            <span>🧠</span>
+            <h3>Revise seus erros</h3>
+            <p>
+                Anote as questões que errou e descubra por que
+                você teve dificuldade.
+            </p>
+        </article>
+
+        <article>
+            <span>📰</span>
+            <h3>Acompanhe atualidades</h3>
+            <p>
+                Leia notícias e procure entender assuntos importantes
+                da sociedade.
+            </p>
+        </article>
+
+        <article>
+            <span>💤</span>
+            <h3>Cuide do descanso</h3>
+            <p>
+                Sono e pausas também fazem parte de uma boa
+                rotina de preparação.
+            </p>
+        </article>
+
+        <article>
+            <span>🎯</span>
+            <h3>Tenha metas</h3>
+            <p>
+                Divida seus objetivos em pequenas tarefas para
+                acompanhar sua evolução.
+            </p>
+        </article>
+
+    </div>
+
 </section>
 
-<section id="oportunidades" class="highlight">
-  <p class="tag">04 — OPORTUNIDADES</p>
-  <h2>O que a nota pode proporcionar?</h2>
-  <div class="opportunities">
-    <div><span>01</span><h3>Universidades</h3><p>Possibilidade de usar a nota em processos de ingresso no ensino superior, conforme as regras de cada instituição.</p></div>
-    <div><span>02</span><h3>Programas de acesso</h3><p>A nota pode ser utilizada em iniciativas como Sisu, Prouni e Fies, seguindo os critérios e editais de cada programa.</p></div>
-    <div><span>03</span><h3>Planejamento profissional</h3><p>Entrar em uma graduação pode ser um passo importante para construir novos projetos acadêmicos e profissionais.</p></div>
-  </div>
+
+<section class="section materias">
+
+    <div class="titulo">
+        <span>04</span>
+        <h2>Prepare cada área</h2>
+    </div>
+
+    <div class="materias-grid">
+
+        <div class="materia">
+            <h3>📐 Matemática</h3>
+            <p>
+                Pratique porcentagem, razão, proporção, gráficos,
+                estatística, geometria e funções.
+            </p>
+        </div>
+
+        <div class="materia">
+            <h3>🧪 Ciências da Natureza</h3>
+            <p>
+                Revise conceitos de Biologia, Química e Física
+                e pratique interpretação de problemas.
+            </p>
+        </div>
+
+        <div class="materia">
+            <h3>🌎 Humanas</h3>
+            <p>
+                Estude História, Geografia, Filosofia e Sociologia,
+                relacionando os conteúdos com o mundo atual.
+            </p>
+        </div>
+
+        <div class="materia">
+            <h3>📖 Linguagens</h3>
+            <p>
+                Treine interpretação de texto, literatura, gramática,
+                artes e diferentes tipos de linguagem.
+            </p>
+        </div>
+
+    </div>
+
 </section>
 
-<section id="dicas">
-  <p class="tag">05 — DICAS DE ESTUDO</p>
-  <h2>Como estudar melhor</h2>
-  <div class="tips">
-    <button>📅 Monte um cronograma <span>+</span></button>
-    <button>✍️ Treine redação <span>+</span></button>
-    <button>📝 Resolva provas anteriores <span>+</span></button>
-    <button>⏱️ Faça simulados com tempo <span>+</span></button>
-    <button>🔎 Revise seus erros <span>+</span></button>
-    <button>😴 Cuide do descanso <span>+</span></button>
-  </div>
+
+<section id="redacao" class="section redacao">
+
+    <div class="titulo">
+        <span>05</span>
+        <h2>Guia rápido da Redação</h2>
+    </div>
+
+    <div class="redacao-box">
+
+        <div>
+            <span>1️⃣</span>
+            <h3>Introdução</h3>
+            <p>
+                Apresente o tema e deixe clara sua tese.
+            </p>
+        </div>
+
+        <div>
+            <span>2️⃣</span>
+            <h3>Desenvolvimento</h3>
+            <p>
+                Apresente argumentos, explique suas ideias
+                e utilize repertórios pertinentes.
+            </p>
+        </div>
+
+        <div>
+            <span>3️⃣</span>
+            <h3>Conclusão</h3>
+            <p>
+                Retome a discussão e apresente uma proposta
+                de intervenção adequada.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="redacao-dica">
+        💡 <strong>DICA:</strong>
+        Treine redações e peça para alguém revisar seus textos.
+        Assim você consegue perceber seus principais erros.
+    </div>
+
 </section>
 
-<section class="cta">
-  <h2>Seu resultado começa na preparação.</h2>
-  <p>Organize seus estudos, acompanhe as informações oficiais e acredite no seu potencial.</p>
-  <a class="button" href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem" target="_blank">Site oficial do Inep ↗</a>
+
+<section id="cronograma" class="section azul">
+
+    <div class="titulo branco">
+        <span>06</span>
+        <h2>Monte sua rotina</h2>
+    </div>
+
+    <div class="cronograma">
+
+        <div>
+            <strong>SEG</strong>
+            <p>📐 Matemática</p>
+        </div>
+
+        <div>
+            <strong>TER</strong>
+            <p>🧪 Natureza</p>
+        </div>
+
+        <div>
+            <strong>QUA</strong>
+            <p>📖 Linguagens</p>
+        </div>
+
+        <div>
+            <strong>QUI</strong>
+            <p>🌎 Humanas</p>
+        </div>
+
+        <div>
+            <strong>SEX</strong>
+            <p>✍️ Redação</p>
+        </div>
+
+        <div>
+            <strong>SÁB</strong>
+            <p>📝 Simulado</p>
+        </div>
+
+    </div>
+
 </section>
+
+
+<section id="quiz" class="section quiz">
+
+    <div class="titulo">
+        <span>07</span>
+        <h2>Quiz ENEM</h2>
+    </div>
+
+    <div class="quiz-box">
+
+        <h3 id="pergunta">
+            Qual matéria faz parte da área de Ciências Humanas?
+        </h3>
+
+        <button onclick="responder(this, true)">
+            História
+        </button>
+
+        <button onclick="responder(this, false)">
+            Física
+        </button>
+
+        <button onclick="responder(this, false)">
+            Química
+        </button>
+
+        <p id="resultado"></p>
+
+        <button class="proxima" onclick="proximaPergunta()">
+            Próxima pergunta ➜
+        </button>
+
+    </div>
+
+</section>
+
+
+<section class="final">
+
+    <h2>🏆 PREPARAÇÃO HOJE,<br>APROVAÇÃO AMANHÃ!</h2>
+
+    <p>
+        Não precisa saber tudo de uma vez.
+        Comece, mantenha o foco e continue evoluindo.
+    </p>
+
+    <a href="#inicio" class="btn principal">⬆ VOLTAR AO TOPO</a>
+
+</section>
+
 </main>
 
-<footer>Projeto escolar — A importância do ENEM · 2026</footer>
+
+<footer>
+
+    <h3>🇧🇷 VEM PRO ENEM!</h3>
+
+    <p>
+        Projeto educacional — Trabalho escolar
+    </p>
+
+    <p>
+        Informação é poder. Compartilhe!
+    </p>
+
+</footer>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fa;
+    color: #10213d;
+}
+
+
+/* NAVBAR */
+
+header {
+    background: #061b50;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px #0004;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 70px;
+    padding: 0 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.logo span {
+    color: #b7f000;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#menu a:hover {
+    color: #dfff00;
+}
+
+.menu-btn {
+    display: none;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 650px;
+    padding: 80px 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background:
+        linear-gradient(135deg, #061b50, #063c9e);
+
+    color: white;
+    overflow: hidden;
+}
+
+.hero-text {
+    max-width: 650px;
+}
+
+.tag {
+    display: inline-block;
+    background: #dfff00;
+    color: #061b50;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: clamp(60px, 9vw, 110px);
+    line-height: .85;
+    margin: 25px 0;
+}
+
+.hero h1 strong {
+    color: #b7f000;
+    font-style: italic;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.principal {
+    background: #dfff00;
+    color: #061b50;
+}
+
+.secundario {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+}
+
+.hero-card {
+    width: 300px;
+    height: 350px;
+
+    background: linear-gradient(145deg, #f9d800, #ffd900);
+    color: #061b50;
+
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transform: rotate(4deg);
+
+    box-shadow: 20px 20px 0 #b7f000;
+}
+
+.hero-card .bola {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.hero-card h3 {
+    font-size: 27px;
+}
+
+.hero-card p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* SECTIONS */
+
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 25px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 45px;
+}
+
+.titulo span {
+    background: #dfff00;
+    padding: 12px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.titulo h2 {
+    font-size: 40px;
+}
+
+
+/* CARDS */
+
+.info-grid,
+.tips,
+.materias-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.info-card,
+.tips article,
+.materia {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px #00000012;
+
+    transition: .3s;
+}
+
+.info-card:hover,
+.tips article:hover,
+.materia:hover {
+    transform: translateY(-7px);
+}
+
+.icon,
+.tips span {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.info-card h3,
+.tips h3,
+.materia h3 {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.info-card p,
+.tips p,
+.materia p {
+    line-height: 1.6;
+    color: #536176;
+}
+
+
+/* AZUL */
+
+.azul {
+    max-width: none;
+    background: #061b50;
+    color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.branco h2 {
+    color: white;
+}
+
+.timeline {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.timeline div {
+    border-left: 4px solid #b7f000;
+    padding: 20px;
+}
+
+.timeline strong {
+    font-size: 35px;
+    color: #dfff00;
+}
+
+.timeline h3 {
+    margin: 15px 0;
+}
+
+.timeline p {
+    line-height: 1.5;
+}
+
+
+/* MATÉRIAS */
+
+.materias-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.materia {
+    border-left: 7px solid #dfff00;
+}
+
+
+/* REDAÇÃO */
+
+.redacao {
+    background: #fff;
+}
+
+.redacao-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.redacao-box div {
+    padding: 30px;
+    border-radius: 20px;
+    background: #061b50;
+    color: white;
+}
+
+.redacao-box span {
+    font-size: 35px;
+}
+
+.redacao-box h3 {
+    margin: 15px 0;
+    color: #dfff00;
+}
+
+.redacao-box p {
+    line-height: 1.5;
+}
+
+.redacao-dica {
+    margin-top: 25px;
+    background: #dfff00;
+    padding: 25px;
+    border-radius: 15px;
+    color: #061b50;
+}
+
+
+/* CRONOGRAMA */
+
+.cronograma {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+}
+
+.cronograma div {
+    background: white;
+    color: #061b50;
+    padding: 25px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.cronograma strong {
+    color: #174fb5;
+    font-size: 20px;
+}
+
+.cronograma p {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+
+/* QUIZ */
+
+.quiz {
+    text-align: center;
+}
+
+.quiz-box {
+    max-width: 700px;
+    margin: auto;
+
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+
+    box-shadow: 0 10px 30px #0002;
+}
+
+.quiz-box h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.quiz-box button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+
+    border: 2px solid #061b50;
+    background: white;
+    color: #061b50;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.quiz-box button:hover {
+    background: #dfff00;
+}
+
+#resultado {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.proxima {
+    background: #061b50 !important;
+    color: white !important;
+}
+
+
+/* FINAL */
+
+.final {
+    text-align: center;
+    padding: 100px 25px;
+
+    background:
+        linear-gradient(135deg, #dfff00, #f5d000);
+    
+    color: #061b50;
+}
+
+.final h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.final p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #061b50;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h3 {
+    color: #dfff00;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 8px;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 800px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+
+        position: absolute;
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+
+        background: #061b50;
+
+        flex-direction: column;
+
+        padding: 25px;
+    }
+
+    #menu.ativo {
+        display: flex;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 60px;
+        padding-top: 60px;
+    }
+
+    .hero h1 {
+        font-size: 70px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .info-grid,
+    .tips,
+    .materias-grid,
+    .timeline,
+    .redacao-box {
+        grid-template-columns: 1fr;
+    }
+
+    .cronograma {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .titulo h2 {
+        font-size: 30px;
+    }
+
+    .final h2 {
+        font-size: 35px;
+    }
+
+}
+
 <script src="script.js"></script>
+
 </body>
 </html>
