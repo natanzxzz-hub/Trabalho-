@@ -1,24 +1,106 @@
-*{box-sizing:border-box}html{scroll-behavior:smooth}:root{--blue:#2167ff;--deep:#111b5c;--pink:#ff3d83;--green:#24b47e;--orange:#ff8a24;--purple:#813dff;--yellow:#ffd735;--bg:#f7f9ff;--text:#17203b;--muted:#667085}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.65}.container{width:min(1120px,calc(100% - 40px));margin:auto}.header{position:sticky;top:0;z-index:20;background:#ffffffee;backdrop-filter:blur(12px);border-bottom:1px solid #e6e9f2}.nav{height:76px;display:flex;align-items:center;gap:28px}.brand{font-size:1.15rem;font-weight:900;color:var(--deep);text-decoration:none;line-height:.9}.brand span{display:block;color:var(--pink);font-size:.58rem;letter-spacing:2px;margin-top:5px}.nav-links{display:flex;gap:24px;margin-left:auto}.nav-links a{font-size:.88rem;font-weight:600;text-decoration:none;color:var(--text)}.nav-links a:hover{color:var(--blue)}.nav-button{background:var(--deep);color:#fff;padding:10px 15px;border-radius:10px;text-decoration:none;font-weight:700;font-size:.85rem}.menu{display:none;border:0;background:none;font-size:1.6rem}.hero{overflow:hidden;background:linear-gradient(120deg,#1d5cff,#5b31dd 55%,#ef2f91);color:#fff;min-height:590px;padding:90px 0}.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:center}.pill{display:inline-block;background:#ffffff22;border:1px solid #ffffff55;padding:7px 12px;border-radius:30px;font-size:.72rem;font-weight:800;letter-spacing:1.4px}.hero h1{font-size:clamp(2.7rem,6vw,5.6rem);line-height:.98;letter-spacing:-3px;margin:20px 0}.hero h1 span{color:var(--yellow)}.hero p{max-width:650px;font-size:1.08rem;color:#f0f2ff}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.button{display:inline-block;padding:13px 20px;border-radius:11px;text-decoration:none;font-weight:800;transition:.2s}.button:hover{transform:translateY(-2px)}.primary{background:var(--yellow);color:#17203b}.secondary{border:1px solid #fff;color:#fff}.hero-card{background:#fff;color:var(--deep);border-radius:25px;padding:30px;box-shadow:0 25px 70px #07104a55;transform:rotate(3deg)}.card-top{display:flex;justify-content:space-between}.card-top strong{background:var(--pink);color:#fff;padding:4px 8px;border-radius:7px}.big-number{font-size:7rem;font-weight:900;line-height:1;margin-top:35px;color:var(--blue)}.hero-card p{color:var(--muted);font-weight:700}.mini-row{display:flex;gap:7px}.mini-row span{background:#eef3ff;padding:8px;border-radius:8px;font-size:.75rem;font-weight:800}.section{padding:100px 0}.section-head{margin-bottom:45px}.section-head>div{display:flex;align-items:center;gap:10px}.section-number{width:38px;height:38px;display:inline-grid;place-items:center;border-radius:50%;color:#fff;font-weight:900;font-size:.78rem}.blue{background:var(--blue)}.pink{background:var(--pink)}.green{background:var(--green)}.orange{background:var(--orange)}.yellow{background:#e3ad00}.purple{background:var(--purple)}.eyebrow{font-size:.72rem;letter-spacing:1.8px;font-weight:900;color:var(--muted)}.light .eyebrow{color:#e6eaff}.section h2{font-size:clamp(2.1rem,4vw,3.7rem);line-height:1.05;letter-spacing:-2px;margin:15px 0 0}.two-columns{display:grid;grid-template-columns:1.4fr .8fr;gap:25px}.large-card{padding:35px;border-radius:22px;color:#fff}.blue-card{background:linear-gradient(135deg,#2266ff,#3843c7)}.large-card h3{font-size:1.7rem;margin-top:0}.large-card p{color:#e9edff}.facts{display:grid;grid-template-columns:1fr 1fr;gap:14px}.fact{background:#fff;border:1px solid #e3e7f0;border-radius:16px;padding:22px}.fact b{display:block;font-size:1.8rem;color:var(--blue)}.fact span{font-size:.82rem;color:var(--muted)}.colored{background:linear-gradient(135deg,#151d63,#4727a8);color:#fff}.cards-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.cards-3 article{padding:28px;background:#ffffff12;border:1px solid #ffffff25;border-radius:18px}.icon{font-size:2rem}.cards-3 h3{font-size:1.3rem}.cards-3 p{color:#dce1ff}.areas{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.area{padding:24px;border-radius:18px;background:#fff;border-top:6px solid var(--blue);box-shadow:0 10px 25px #1a2a5510}.area span{font-size:.7rem;font-weight:900;color:var(--muted)}.area h3{margin:10px 0 6px}.area p{font-size:.85rem;color:var(--muted)}.language{border-color:var(--blue)}.human{border-color:var(--pink)}.nature{border-color:var(--green)}.math{border-color:var(--orange)}.redacao{margin-top:22px;background:linear-gradient(90deg,#fff1f7,#f4efff);padding:27px;border-radius:20px;display:flex;gap:22px}.redacao-icon{font-size:2.4rem}.redacao h3{margin:5px 0}.redacao p{margin:0;color:var(--muted)}.dates-section{background:#fff}.timeline{border-left:3px solid #dbe1f0;margin-left:18px}.timeline-item{position:relative;display:grid;grid-template-columns:190px 1fr;gap:25px;padding:5px 0 32px 30px}.timeline-item:before{content:"";position:absolute;left:-9px;top:7px;width:15px;height:15px;background:var(--orange);border:4px solid #fff;border-radius:50%}.date{font-weight:900;color:var(--orange)}.timeline h3{margin:0}.timeline p{margin:3px 0;color:var(--muted)}.alert{background:#fff7e8;border:1px solid #ffd48c;padding:15px 18px;border-radius:12px;color:#704600}.opportunities-section{background:linear-gradient(135deg,#ff3c83,#7d35e9);color:#fff}.opportunities{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.opportunities article{padding:25px;border-radius:18px;background:#ffffff12;border:1px solid #ffffff30}.opp-number{color:var(--yellow);font-weight:900}.opportunities h3{font-size:1.45rem}.opportunities p{color:#f1eaff;font-size:.86rem}.tips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.tips-grid article{background:#fff;border:1px solid #e3e7f0;border-radius:18px;padding:25px;transition:.2s}.tips-grid article:hover{transform:translateY(-4px)}.tips-grid span{font-size:2rem}.tips-grid h3{margin:8px 0}.tips-grid p{color:var(--muted);font-size:.87rem}.checklist{margin-top:30px;padding:25px;border-radius:18px;background:#eef3ff}.checklist label{display:block;background:#fff;margin:8px 0;padding:12px;border-radius:9px}.checklist input{margin-right:10px;accent-color:var(--blue)}.cta{padding:70px 0;background:linear-gradient(100deg,#2167ff,#722ee6);color:#fff}.cta .container{display:flex;align-items:center;justify-content:space-between;gap:30px}.cta h2{font-size:2.5rem;line-height:1;margin:8px 0}.cta p{color:#e8ebff}.yellow-button{background:var(--yellow);color:var(--text)}footer{background:#0d1548;color:#fff;padding:35px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px}.footer-grid p{margin:4px 0;color:#aeb8e5;font-size:.78rem}@media(max-width:850px){.nav-links,.nav-button{display:none}.menu{display:block;margin-left:auto}.hero-grid,.two-columns{grid-template-columns:1fr}.cards-3,.opportunities{grid-template-columns:1fr 1fr}.areas{grid-template-columns:1fr 1fr}.tips-grid{grid-template-columns:1fr 1fr}.hero-card{max-width:430px;margin:auto}}@media(max-width:560px){.container{width:calc(100% - 28px)}.section{padding:70px 0}.cards-3,.opportunities,.areas,.tips-grid,.facts{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:0}.redacao{flex-direction:column}.footer-grid{flex-direction:column}.cta .container{flex-direction:column;align-items:flex-start}.hero h1{letter-spacing:-1px}}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENEM — Seu próximo passo começa aqui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <a class="logo" href="#inicio">ENEM<span>2026</span></a>
+    <div class="links">
+      <a href="#o-que-e">O que é</a><a href="#finalidade">Finalidade</a>
+      <a href="#datas">Datas</a><a href="#oportunidades">Oportunidades</a><a href="#dicas">Dicas</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div>
+    <p class="tag">GUIA DO ESTUDANTE</p>
+    <h1>ENEM: uma prova que pode abrir portas para o seu futuro.</h1>
+    <p class="subtitle">Entenda o exame, confira as principais datas de 2026 e descubra como se preparar melhor.</p>
+    <a class="button" href="#o-que-e">Começar a explorar ↓</a>
+  </div>
+  <div class="hero-card">
+    <div class="number">01</div><p>Informação</p>
+    <div class="number">02</div><p>Preparação</p>
+    <div class="number">03</div><p>Oportunidades</p>
+  </div>
+</section>
+
+<section id="o-que-e">
+  <p class="tag">01 — O QUE É</p>
+  <h2>Entendendo o ENEM</h2>
+  <div class="card">
+    <p>O Exame Nacional do Ensino Médio (ENEM) é uma avaliação realizada pelo Inep que verifica conhecimentos e habilidades desenvolvidos durante a educação básica. A prova também é uma das principais formas de acesso ao ensino superior no Brasil.</p>
+  </div>
+</section>
+
+<section id="finalidade" class="dark">
+  <p class="tag">02 — FINALIDADE</p>
+  <h2>Por que o ENEM é importante?</h2>
+  <div class="grid">
+    <article><b>🎓 Avaliar conhecimentos</b><p>Mede competências e conhecimentos de diferentes áreas do ensino médio.</p></article>
+    <article><b>🏫 Acesso ao ensino superior</b><p>A nota pode ser usada em processos seletivos de instituições que adotam o ENEM.</p></article>
+    <article><b>🌱 Novas possibilidades</b><p>O resultado pode ajudar o estudante a buscar diferentes caminhos acadêmicos e profissionais.</p></article>
+  </div>
+</section>
+
+<section id="datas">
+  <p class="tag">03 — DATAS IMPORTANTES</p>
+  <h2>ENEM 2026</h2>
+  <div class="timeline">
+    <div><strong>13 a 30/04</strong><span>Solicitação de isenção da taxa</span></div>
+    <div><strong>25/05 a 12/06</strong><span>Período de inscrição</span></div>
+    <div><strong>22/06</strong><span>Prazo para pagamento da taxa de R$ 85,00</span></div>
+    <div><strong>08/11</strong><span>1º dia de provas: Linguagens, Ciências Humanas e Redação</span></div>
+    <div><strong>15/11</strong><span>2º dia de provas: Ciências da Natureza e Matemática</span></div>
+  </div>
+  <p class="note">Datas referentes ao cronograma oficial do ENEM 2026. Confira sempre as atualizações no Inep.</p>
+</section>
+
+<section id="oportunidades" class="highlight">
+  <p class="tag">04 — OPORTUNIDADES</p>
+  <h2>O que a nota pode proporcionar?</h2>
+  <div class="opportunities">
+    <div><span>01</span><h3>Universidades</h3><p>Possibilidade de usar a nota em processos de ingresso no ensino superior, conforme as regras de cada instituição.</p></div>
+    <div><span>02</span><h3>Programas de acesso</h3><p>A nota pode ser utilizada em iniciativas como Sisu, Prouni e Fies, seguindo os critérios e editais de cada programa.</p></div>
+    <div><span>03</span><h3>Planejamento profissional</h3><p>Entrar em uma graduação pode ser um passo importante para construir novos projetos acadêmicos e profissionais.</p></div>
+  </div>
+</section>
+
+<section id="dicas">
+  <p class="tag">05 — DICAS DE ESTUDO</p>
+  <h2>Como estudar melhor</h2>
+  <div class="tips">
+    <button>📅 Monte um cronograma <span>+</span></button>
+    <button>✍️ Treine redação <span>+</span></button>
+    <button>📝 Resolva provas anteriores <span>+</span></button>
+    <button>⏱️ Faça simulados com tempo <span>+</span></button>
+    <button>🔎 Revise seus erros <span>+</span></button>
+    <button>😴 Cuide do descanso <span>+</span></button>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Seu resultado começa na preparação.</h2>
+  <p>Organize seus estudos, acompanhe as informações oficiais e acredite no seu potencial.</p>
+  <a class="button" href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem" target="_blank">Site oficial do Inep ↗</a>
+</section>
+</main>
+
+<footer>Projeto escolar — A importância do ENEM · 2026</footer>
+<script src="script.js"></script>
+</body>
+</html>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f7f4ee;color:#171717;line-height:1.6}header{position:sticky;top:0;background:rgba(247,244,238,.95);border-bottom:1px solid #ddd;z-index:10}.nav{max-width:1100px;margin:auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}.logo{font-weight:900;font-size:1.3rem;color:#171717;text-decoration:none}.logo span{font-size:.75rem;margin-left:5px;background:#d9ff3f;padding:3px 6px}.links{display:flex;gap:18px}.links a{color:#333;text-decoration:none;font-size:.9rem}.links a:hover{color:#758d00}.hero{min-height:650px;max-width:1100px;margin:auto;padding:100px 24px;display:grid;grid-template-columns:1.7fr 1fr;gap:50px;align-items:center}.tag{font-size:.75rem;font-weight:800;letter-spacing:2px;color:#687800}h1{font-size:clamp(3rem,7vw,6.5rem);line-height:.92;margin:15px 0 25px;letter-spacing:-4px}.subtitle{font-size:1.15rem;max-width:620px}.button{display:inline-block;margin-top:20px;padding:13px 20px;background:#171717;color:white;text-decoration:none;border-radius:5px;font-weight:700}.hero-card{background:#171717;color:white;padding:35px;border-radius:18px;transform:rotate(2deg)}.hero-card .number{font-size:3rem;font-weight:900;color:#d9ff3f;line-height:1}.hero-card p{margin:0 0 30px;font-weight:700}section{max-width:1100px;margin:auto;padding:100px 24px}h2{font-size:clamp(2.2rem,5vw,4rem);line-height:1;margin:10px 0 35px;letter-spacing:-2px}.card{font-size:1.25rem;max-width:850px;border-left:5px solid #d9ff3f;padding:20px 30px;background:white;box-shadow:0 10px 30px #0000000b}.dark{max-width:none;background:#171717;color:white}.dark>*{max-width:1050px;margin-left:auto;margin-right:auto}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.grid article{border:1px solid #444;padding:25px;border-radius:12px}.grid b{font-size:1.2rem}.timeline{max-width:850px}.timeline div{display:grid;grid-template-columns:180px 1fr;padding:22px 0;border-bottom:1px solid #ccc}.timeline strong{font-size:1.1rem}.note{font-size:.85rem;color:#666}.highlight{max-width:none;background:#d9ff3f}.highlight>*{max-width:1050px;margin-left:auto;margin-right:auto}.opportunities{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.opportunities div{background:#171717;color:white;padding:28px;border-radius:12px}.opportunities span{font-size:.8rem;color:#d9ff3f}.opportunities h3{font-size:1.5rem}.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.tips button{border:1px solid #ccc;background:white;padding:20px;text-align:left;font-size:1rem;border-radius:8px;cursor:pointer;display:flex;justify-content:space-between}.tips button:hover{border-color:#9caf00}.cta{text-align:center}.cta p{max-width:650px;margin:auto}.cta .button{background:#171717}footer{text-align:center;padding:30px;border-top:1px solid #ddd;font-size:.8rem;color:#666}@media(max-width:750px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:60px}.hero-card{display:none}.grid,.opportunities,.tips{grid-template-columns:1fr}h1{letter-spacing:-2px}.timeline div{grid-template-columns:1fr;gap:5px}section{padding:70px 20px}}
 // Script para interatividade das dicas de estudo
-document.querySelectorAll('.tips-grid article').forEach(article => {
-  article.addEventListener('click', function() {
+document.querySelectorAll('.tips button').forEach(button => {
+  button.addEventListener('click', function() {
     this.classList.toggle('active');
   });
 });
-
-// Checklist interativo
-document.querySelectorAll('.checklist input').forEach(input => {
-  input.addEventListener('change', function() {
-    this.parentElement.style.opacity = this.checked ? '0.6' : '1';
-  });
-});
-
-// Menu mobile (opcional)
-const menuButton = document.querySelector('.menu');
-const navLinks = document.querySelector('.nav-links');
-
-if (menuButton) {
-  menuButton.addEventListener('click', function() {
-    navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-  });
-}
