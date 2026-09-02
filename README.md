@@ -977,3 +977,161 @@ footer p {
 
 </body>
 </html>
+// MENU MOBILE
+
+function abrirMenu() {
+
+    const menu = document.getElementById("menu");
+
+    menu.classList.toggle("ativo");
+
+}
+
+
+// QUIZ
+
+let perguntaAtual = 0;
+
+const perguntas = [
+
+    {
+        pergunta: "Qual matéria faz parte da área de Ciências Humanas?",
+        respostas: [
+            ["História", true],
+            ["Física", false],
+            ["Química", false]
+        ]
+    },
+
+    {
+        pergunta: "Qual dessas áreas possui Matemática?",
+        respostas: [
+            ["Linguagens", false],
+            ["Matemática", true],
+            ["Ciências Humanas", false]
+        ]
+    },
+
+    {
+        pergunta: "Qual parte da redação apresenta a proposta de intervenção?",
+        respostas: [
+            ["Introdução", false],
+            ["Desenvolvimento", false],
+            ["Conclusão", true]
+        ]
+    },
+
+    {
+        pergunta: "Qual é uma boa estratégia de estudo?",
+        respostas: [
+            ["Nunca revisar os erros", false],
+            ["Fazer questões e revisar", true],
+            ["Estudar somente um dia antes", false]
+        ]
+    }
+
+];
+
+
+function carregarPergunta() {
+
+    const pergunta = perguntas[perguntaAtual];
+
+    document.getElementById("pergunta").innerText =
+        pergunta.pergunta;
+
+    const botoes =
+        document.querySelectorAll(".quiz-box > button:not(.proxima)");
+
+    botoes.forEach((botao, index) => {
+
+        botao.innerText =
+            pergunta.respostas[index][0];
+
+        botao.onclick = function () {
+
+            responder(
+                this,
+                pergunta.respostas[index][1]
+            );
+
+        };
+
+    });
+
+    document.getElementById("resultado").innerText = "";
+
+}
+
+
+function responder(botao, correta) {
+
+    const resultado =
+        document.getElementById("resultado");
+
+    if (correta) {
+
+        resultado.innerText = "✅ Acertou! Mandou bem!";
+
+    } else {
+
+        resultado.innerText = "❌ Quase! Tente a próxima.";
+
+    }
+
+}
+
+
+function proximaPergunta() {
+
+    perguntaAtual++;
+
+    if (perguntaAtual >= perguntas.length) {
+
+        perguntaAtual = 0;
+
+    }
+
+    carregarPergunta();
+
+}
+
+
+carregarPergunta();
+
+
+// ANIMAÇÃO AO ROLAR
+
+const cards =
+    document.querySelectorAll(
+        ".info-card, .tips article, .materia"
+    );
+
+
+const observer =
+    new IntersectionObserver((entradas) => {
+
+        entradas.forEach(entrada => {
+
+            if (entrada.isIntersecting) {
+
+                entrada.target.style.opacity = "1";
+                entrada.target.style.transform =
+                    "translateY(0)";
+
+            }
+
+        });
+
+    });
+
+
+cards.forEach(card => {
+
+    card.style.opacity = "0";
+    card.style.transform = "translateY(30px)";
+    card.style.transition = "all .6s ease";
+
+    observer.observe(card);
+
+});
